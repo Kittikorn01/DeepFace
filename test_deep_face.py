@@ -1,7 +1,7 @@
 from deepface import DeepFace
 import pandas as pd
 import os
-
+#pip install deepface tf-keras opencv-python
 # รันการค้นหา
 results = DeepFace.find(img_path = "test_image2.jpg", 
                         db_path = "dataset/", 
